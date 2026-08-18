@@ -5,9 +5,9 @@ patch:
   # 1. 默认输入状态为英文 (ascii_mode 默认启用)
   "switches/@0/reset": 1
 
-  # 2. 拼写字母表只保留小写 a-z，去除大写字母、反引号和 /（大写字母及符号直接上屏）
-  "speller/alphabet": "zyxwvutsrqponmlkjihgfedcba"
-  "speller/initials": "zyxwvutsrqponmlkjihgfedcba"
+  # 2. 拼写字母表包含小写 a-z 和大写 A-Z（Shift + 字母进入英文候选，去除反引号和 /）
+  "speller/alphabet": "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA"
+  "speller/initials": "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA"
 
   # 3. 清空方案级 patterns 拦截（Unicode、金额大写、计算器、农历、反查等）
   "recognizer/patterns": {}
