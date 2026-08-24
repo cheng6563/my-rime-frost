@@ -39,3 +39,6 @@ patch:
     - table_translator@cn_en
     - table_translator@radical_lookup
     - lua_translator@*force_gc
+
+  # 7. 自定义短语指向专属独立文件 my_phrase.txt（避免与官方 custom_phrase.txt 冲突）
+  "custom_phrase/user_dict": "my_phrase"
