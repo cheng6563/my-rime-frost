@@ -593,3 +593,80 @@ sort: by_weight
 四个興	si ge xing	0
 四个龍	si ge long	1
 四个土	si ge tu	0
+# 2026-08-27 新增：热榜新词/专名/影视人名（来自 zhihu_hot_top10x10 分词缺失高频词）
+拼假	pin jia	0
+热索瓦	re suo wa	0
+凹晶溪馆	ao jing xi guan	0
+老扎	lao zha	0
+赛夫	sai fu	0
+# 2026-09-01 新增：热榜新词/游戏术语/专名（来自 zhihu_missing_2026-09-01 分词缺失词）
+梦战	meng zhan	0
+固伤	gu shang	0
+神契	shen qi	0
+魔导石	mo dao shi	0
+结婴	jie ying	0
+粮储库	liang chu ku	0
+色选	se xuan	0
+套保	tao bao	0
+剧王	ju wang	0
+卡差	ka cha	0
+娘化	niang hua	0
+起号	qi hao	0
+歌川国芳	ge chuan guo fang	0
+抢客	qiang ke	0
+# 2026-09-02 新增：热榜新词/专名（来自 zhihu_missing_2026-09-02 分词缺失词）
+特努斯	te nu si	0
+帖文	tie wen	0
+涉华	she hua	0
+美伊	mei yi	0
+# 2026-09-03 新增：热榜新词/专名/技术术语（来自 zhihu_missing_2026-09-03 分词缺失词）
+沙德尔	sha de er	0
+曲彤	qu tong	0
+阿西莫格鲁	a xi mo ge lu	0
+狠活	hen huo	0
+上量	shang liang	0
+偏强	pian qiang	0
+刘明远	liu ming yuan	0
+曜星社	yao xing she	0
+王义为	wang yi wei	0
+白牌	bai pai	0
+钝化工艺	dun hua gong yi	0
+# 2026-09-05 新增：热榜新词/角色名/专名（来自 zhihu_missing_2026-09-05 分词缺失词）
+季洁	ji jie	0
+敖白	ao bai	0
+常威	chang wei	0
+矿潮	kuang chao	0
+仲树	zhong shu	0
+九斤	jiu jin	0
+接尿	jie niao	0
+罗维	luo wei	0
+花臂	hua bi	0
+刘洵	liu xun	0
+宗生	zong sheng	0
+王茜	wang qian	0
+矿卡	kuang ka	0
+鸡仔	ji zai	0
+卢虹贝	lu hong bei	0
+步亭	bu ting	0
+猴侠	hou xia	0
+# 2026-09-06 新增：热榜新词/专名/技术术语（来自 zhihu_missing_2026-09-06 分词缺失词）
+加朵	jia duo	0
+二壮	er zhuang	0
+访存	fang cun	0
+位线	wei xian	0
+派蒂	pai di	0
+涉师	she shi	0
+硕蠊	shuo lian	0
+超调	chao tiao	0
+三贼	san zei	0
+吕家篇	lv jia pian	0
+回破	hui po	0
+恋陪	lian pei	0
+林禄	lin lu	0
+柳坤生	liu kun sheng	0
+残涡	can wo	0
+泰思妥	tai si tuo	0
+浙闽	zhe min	0
+牛河	niu he	0
+老肖	lao xiao	0
+育囊	yu nang	0
