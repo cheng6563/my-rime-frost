@@ -42,3 +42,7 @@ patch:
 
   # 7. 自定义短语指向专属独立文件 my_phrase.txt（避免与官方 custom_phrase.txt 冲突）
   "custom_phrase/user_dict": "my_phrase"
+
+  # 8. 挂载专属主词典（彻底排除 GB18030-2022 中5.6万个生僻怪字）
+  "translator/dictionary": "my_rime_frost"
+  "radical_reverse_lookup/dictionary": "my_rime_frost"

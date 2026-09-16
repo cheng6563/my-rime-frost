@@ -1,0 +1,87 @@
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: my_rime_frost
+version: "2026-08-18"
+import_tables:
+  - cn_dicts/8105     # 规范汉字表（8105字，覆盖100%现代汉语常用/次常用/科技人名地名）
+  - cn_dicts/41448    # 大字表（41448字，覆盖古籍、文言文、罕见人名）
+  # - cn_dicts/GB18030-2022  # 彻底禁用：包含5.6万个Unicode扩展区生僻极罕见字（如𡎛等怪字就是这里引入的）
+  - cn_dicts/base     # 基础词库
+  - cn_dicts/ext      # 扩展词库
+  - cn_dicts/others   # 一些杂项
+  - cn_dicts/corrections # 错音错字提示
+
+  # 细胞词库
+  - cn_dicts_cell/medication
+  - cn_dicts_cell/industry_product
+  - cn_dicts_cell/exthot
+  - cn_dicts_cell/chess
+  - cn_dicts_cell/chess2
+  - cn_dicts_cell/animal
+  - cn_dicts_cell/game
+  - cn_dicts_cell/idiom
+  - cn_dicts_cell/sport
+  - cn_dicts_cell/media
+  - cn_dicts_cell/shulihua
+  - cn_dicts_cell/food
+  - cn_dicts_cell/inputmethod
+  - cn_dicts_cell/history
+  - cn_dicts_cell/place
+  - cn_dicts_cell/geography
+  - cn_dicts_cell/name2
+  - cn_dicts_cell/literature
+  - cn_dicts_cell/music
+  - cn_dicts_cell/computer
+  - cn_dicts_cell/composite
+  - cn_dicts_cell/luna
+  - cn_dicts_cell/name
+...
+
+# 大写字母参与造句
+A	A
+B	B
+C	C
+D	D
+E	E
+F	F
+G	G
+H	H
+I	I
+J	J
+K	K
+L	L
+M	M
+N	N
+O	O
+P	P
+Q	Q
+R	R
+S	S
+T	T
+U	U
+V	V
+W	W
+X	X
+Y	Y
+Z	Z
+
+# 数字参与中文造词
+0	ling
+1	yi
+1	yao
+2	er
+3	san
+4	si
+5	wu
+6	liu
+7	qi
+8	ba
+9	jiu
+3G
+4G
+5G
+3G网络
+4G网络
+5G网络
