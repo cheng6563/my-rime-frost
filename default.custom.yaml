@@ -106,3 +106,6 @@ patch:
 
   # 4. 清空通用拦截规则
   "recognizer/patterns": {}
+
+  # 5. 数字后分隔符（点号、逗号、冒号）直接上屏，绝不弹单候选框
+  "punctuator/digit_separator_action": commit
