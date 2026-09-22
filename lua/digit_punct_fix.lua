@@ -10,6 +10,9 @@ function P.init(env)
     env.symbol_attached = nil
     env.saved_candidate = nil
     env.saved_candidates = nil
+    env.dquote_state = 0 -- 0: “，1: ”
+    env.squote_state = 0 -- 0: ‘，1: ’
+    env.last_quote_type = nil
 end
 
 local function is_symbol_key(key)
@@ -17,8 +20,8 @@ local function is_symbol_key(key)
         return false
     end
     local code = key.keycode
-    -- 排除逗号 ',' (0x2c) 和句号 '.' (0x2e)，这两个用于翻页
-    if code == 0x2c or code == 0x2e then
+    -- 排除逗号、句号（翻页），以及单双引号（交给专门的配对逻辑）
+    if code == 0x2c or code == 0x2e or code == 0x22 or code == 0x27 then
         return false
     end
     -- ASCII 可见符号范围（排除字母、数字和空格）
@@ -47,6 +50,7 @@ function P.func(key, env)
     -- 分支 A：处于拼音输入 / 候选列表状态
     -- =========================================================================
     if context:is_composing() or context:has_menu() then
+        env.last_quote_type = nil
         local repr = key:repr()
 
         -- 1. 如果之前已经追加了符号：
@@ -146,9 +150,54 @@ function P.func(key, env)
     end
 
     -- =========================================================================
-    -- 分支 B：非输入状态（没在打拼音），数字后接标点直接上屏
+    -- 分支 B：非输入状态（没在打拼音）
     -- =========================================================================
     local key_repr = key:repr()
+
+    -- 中文模式下单双引号分别前后配对；英文模式已在前面直接放行
+    if key_repr == "quotedbl" or (not key:ctrl() and not key:alt() and key.keycode == 0x22) then
+        if env.dquote_state == 0 then
+            env.engine:commit_text("“")
+            env.dquote_state = 1
+        else
+            env.engine:commit_text("”")
+            env.dquote_state = 0
+        end
+        env.last_quote_type = "double"
+        return 1
+    end
+
+    if key_repr == "apostrophe" or (not key:ctrl() and not key:alt() and key.keycode == 0x27) then
+        if env.squote_state == 0 then
+            env.engine:commit_text("‘")
+            env.squote_state = 1
+        else
+            env.engine:commit_text("’")
+            env.squote_state = 0
+        end
+        env.last_quote_type = "single"
+        return 1
+    end
+
+    -- 刚输入的引号被退格删除时，复位对应状态
+    if key_repr == "BackSpace" then
+        if env.last_quote_type == "double" then
+            env.dquote_state = 0
+        elseif env.last_quote_type == "single" then
+            env.squote_state = 0
+        end
+        env.last_quote_type = nil
+        return 2
+    end
+
+    -- 换行或 Esc 开启新的引号上下文
+    if key_repr == "Return" or key_repr == "KP_Enter" or key_repr == "Escape" then
+        env.dquote_state = 0
+        env.squote_state = 0
+        env.last_quote_type = nil
+        return 2
+    end
+
     if key_repr == "period" or key_repr == "colon" or key_repr == "comma" or key_repr == "KP_Decimal" then
         local latest = context.commit_history:latest_text()
         if latest and #latest > 0 and latest:match("[0-9]$") then
@@ -165,6 +214,7 @@ function P.func(key, env)
         end
     end
 
+    env.last_quote_type = nil
     env.symbol_attached = nil
     env.saved_candidate = nil
     env.saved_candidates = nil
