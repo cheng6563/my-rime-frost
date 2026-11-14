@@ -4120,3 +4120,211 @@ sort: by_weight
 秦攀	qin pan	0
 # 2026-11-01 新增：知乎热榜热词（文学表达「叠响」，来自 zhihu_missing_2026-11-01 分词缺失词）
 叠响	die xiang	0
+# 2026-11-02 新增：知乎热榜热词（常用词「同乘」「评教」，来自 zhihu_missing_2026-11-02 分词缺失词）
+同乘	tong cheng	0
+评教	ping jiao	0
+# 2026-11-03 新增：知乎热榜热词（人物名「侯卓成」「杨汝晴」「周沁瑶」，品牌名「鸿蒙智行」，常用词「开谈」，来自 zhihu_missing_2026-11-03 分词缺失词）
+侯卓成	hou zhuo cheng	0
+杨汝晴	yang ru qing	0
+周沁瑶	zhou qin yao	0
+鸿蒙智行	hong meng zhi xing	0
+开谈	kai tan	0
+# 2026-11-04 新增：知乎热榜热词（医学术语「心脏压塞」、团队名「永达智诚」、院校简称「鲁艺」、常用词「多省」「疑因」「预载」，来自 zhihu_missing_2026-11-04 分词缺失词）
+心脏压塞	xin zang ya se	0
+永达智诚	yong da zhi cheng	0
+鲁艺	lu yi	0
+多省	duo sheng	0
+疑因	yi yin	0
+预载	yu zai	0
+# 2026-11-07 新增：知乎热榜热词（美国众议员名「亚萨明」，来自 zhihu_missing_2026-11-07 分词缺失词；「宮本茂」为「宫本茂」繁体异体，已在 base.dict.yaml，不重复收录）
+亚萨明	ya sa ming	0
+# 2026-11-07 补录热词（时政安全「暴恐」、人物名「任冲昊」、通信常用词「来显」）
+暴恐	bao kong	0
+任冲昊	ren chong hao	0
+来显	lai xian	0
+# 2026-11-08 新增：知乎热榜热词（原神与《影之刃零》角色/电竞与体育/军事枪械/超冷原子与生物/影视综艺人物/历史与网络用语，来自 zhihu_missing_2026-11-08 分词缺失词）
+达妮卡	da ni ka	0
+安娜丝塔夏	an na si ta xia	0
+安娜斯塔夏	an na si ta xia	0
+别捷尼茨卡娅	bie jie ni ci ka ya	0
+生之执政	sheng zhi zhi zheng	0
+白赤练	bai chi lian	0
+庞镇	pang zhen	0
+花千笑	hua qian xiao	0
+魂大人	hun da ren	0
+忍杀	ren sha	0
+拼刀	pin dao	0
+打龙	da long	0
+推关	tui guan	0
+盾怪	dun guai	0
+罚失	fa shi	0
+闷平	men ping	0
+零冠	ling guan	0
+退排	tui pai	0
+陈熠	chen yi	0
+胡荷韬	hu he tao	0
+马马杜	ma ma du	0
+唐田	tang tian	0
+吴奕博	wu yi bo	0
+刘畅	liu chang	0
+备弹	bei dan	0
+突防	tu fang	0
+节套	jie tao	0
+造枪	zao qiang	0
+军盲	jun mang	0
+螅状体	xi zhuang ti	0
+光阱	guang jing	0
+磁阱	ci jing	0
+冷垫	leng dian	0
+成鸟	cheng niao	0
+幼雀	you que	0
+剩谷	sheng gu	0
+灭雀	mie que	0
+藏冰	cang bing	0
+李绮红	li qi hong	0
+梁其伟	liang qi wei	0
+宋年欢	song nian huan	0
+魏娆	wei rao	0
+剧粉	ju fen	0
+组讯	zu xun	0
+餐损	can sun	0
+七鲜	qi xian	0
+王娡	wang zhi	0
+金俗	jin su	0
+老印	lao yin	0
+老钟	lao zhong	0
+普帝	pu di	0
+少民	shao min	0
+本博连读	ben bo lian du	0
+搏至无憾	bo zhi wu han	0
+办赛	ban sai	0
+空杆	kong gan	0
+卸片	xie pian	0
+即时清结	ji shi qing jie	0
+# 2026-11-09 新增：知乎热榜热词（游戏与网络用语/消费维权与品牌/实验猴与猴价/太原建筑与历史地名/明史人物/影视角色，来自 zhihu_missing_2026-11-09 分词缺失词）
+瞬身	shun shen	0
+躲招	duo zhao	0
+锻体	duan ti	0
+宅宅	zhai zhai	0
+软剑	ruan jian	0
+卡蓓诺	ka bei nuo	0
+平辰	ping chen	0
+昌通	chang tong	0
+猴场	hou chang	0
+猴价	hou jia	0
+幼猴	you hou	0
+种猴	zhong hou	0
+唐槐	tang huai	0
+散租	san zu	0
+石太线	shi tai xian	0
+张垣	zhang yuan	0
+崇简王	chong jian wang	0
+朱见泽	zhu jian ze	0
+村碑	cun bei	0
+竹匠	zhu jiang	0
+扇凉	shan liang	0
+牛耿	niu geng	0
+唐贵	tang gui	0
+花音	hua yin	0
+# 2026-11-10 新增：知乎热榜热词（秦陵考古与丧葬制度/儿童营养/畜牧养殖/网络用语/人物名，来自 zhihu_missing_2026-11-10 分词缺失词）
+头箱	tou xiang	0
+边箱	bian xiang	0
+秦墓	qin mu	0
+告地书	gao di shu	0
+遣册	qian ce	0
+竹牍	zhu du	0
+阴嫚	yin man	0
+阳滋	yang zi	0
+晚长	wan zhang	0
+畜肉	chu rou	0
+爬跨台	pa kua tai	0
+欧裔	ou yi	0
+梅斯蒂索	mei si di suo	0
+费登奎斯	fei deng kui si	0
+降本增笑	jiang ben zeng xiao	0
+阿越	a yue	0
+吴博	wu bo	0
+周军	zhou jun	0
+付鹏	fu peng	0
+# 2026-11-11 新增：知乎热榜热词（企业/人口/粤语/影视人物/网络用语，来自 zhihu_missing_2026-11-11 分词缺失词）
+闻泰	wen tai	0
+达峰	da feng	0
+契弟	qi di	0
+傅隆生	fu long sheng	0
+恬妞	tian niu	0
+演法	yan fa	0
+微焦	wei jiao	0
+三低	san di	0
+改戏	gai xi	0
+程东	cheng dong	0
+贺炳炎	he bing yan	0
+野核	ye he	0
+青稚	qing zhi	0
+圈米	quan mi	0
+硬造	ying zao	0
+# 2026-11-12 新增：知乎热榜热词（足球人物/手作玩具/食品工业/制造工艺/相声人物/神话角色/游戏角色/企业，来自 zhihu_missing_2026-11-12 分词缺失词）
+吴曦	wu xi	0
+拼豆	pin dou	0
+拼豆店	pin dou dian	0
+菌数	jun shu	0
+劣变	lie bian	0
+错装	cuo zhuang	0
+朱阔泉	zhu kuo quan	0
+深沙神	shen sha shen	0
+蛊鹤	gu he	0
+恩喜村	en xi cun	0
+# 2026-11-13 新增：知乎热榜热词（基层政务/考古/影视人物/医疗/司法/澳洲地名/企业，来自 zhihu_missing_2026-11-13 分词缺失词）
+乡党委	xiang dang wei	0
+墓群	mu qun	0
+维州	wei zhou	0
+范家庄	fan jia zhuang	0
+黄佐临	huang zuo lin	0
+洛丽	luo li	0
+曼伦	man lun	0
+瞬视	shun shi	0
+赫格塞斯	he ge sai si	0
+添柴	tian chai	0
+监居	jian ju	0
+脱管	tuo guan	0
+储尿	chu niao	0
+借卡	jie ka	0
+店方	dian fang	0
+# 2026-11-13 补充：技术/开发用语（示例值、重跑）
+示例值	shi li zhi	0
+重跑	chong pao	0
+# 2026-11-13 补充：网络流行语（百万漕工衣食所系）
+百万漕工衣食所系	bai wan cao gong yi shi suo xi	0
+百万漕工	bai wan cao gong	0
+衣食所系	yi shi suo xi	0
+# 2026-11-14 新增：知乎热榜热词（影视人物/企业历史/金融航空/工艺文化/医疗口语，来自 zhihu_missing_2026-11-14 分词缺失词）
+文吉儿	wen ji er	0
+潘樾	pan yue	0
+李凤	li feng	0
+基尔比	ji er bi	0
+蓝鸿春	lan hong chun	0
+维嘉	wei jia	0
+麦林	mai lin	0
+豆姐	dou jie	0
+世大	shi da	0
+世大半导体	shi da ban dao ti	0
+康国	kang guo	0
+麻鹰婆	ma ying po	0
+虹蓝恋	hong lan lian	0
+购金	gou jin	0
+净购	jing gou	0
+净购金	jing gou jin	0
+驻厂	zhu chang	0
+塔架	ta jia	0
+空管员	kong guan yuan	0
+衔接航班	xian jie hang ban	0
+再访	zai fang	0
+制瓷	zhi ci	0
+烧造	shao zao	0
+粗瓷	cu ci	0
+宅斗	zhai dou	0
+拒婚	ju hun	0
+随餐	sui can	0
+身系	shen xi	0
+盲开	mang kai	0
+玩崩	wan beng	0
+推活	tui huo	0
